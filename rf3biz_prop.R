@@ -3,6 +3,7 @@ library(tidyverse)
 library(randomForest)
 library(ggthemes)
 library(modelr)
+library(MatchIt)
 
 # dataset based on:
 # Generating Skilled Self-Employment in Developing Countries: Experimental Evidence 
@@ -12,8 +13,6 @@ library(modelr)
 # method is based on:
 # Generic Machine Learning Inference on Heterogenous Treatment Effects in Randomized 
 # Experiments (Chernozhukov et al, 2017)
-# Note: This is merely preliminary EDA and will be refined once more of the data is 
-# understood
 
 #some data cleaning
 
